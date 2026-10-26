@@ -1,0 +1,22 @@
+# List prices for the APIs that report tokens but not cost (EXPERIMENT.md 8.5).
+# USD per 1M tokens. `checked` is the date the source was last read.
+# Haiku and Qwen: the cost comes from usage.cost; list prices are in pricing-<date>-*.json next to results.db.
+
+[jev]
+input_per_mtok = 0.042
+output_per_mtok = 0.0
+checked = "2026-10-26"
+# The homepage gives "$42 per billion input tokens" and no output price. Free output tokens are
+# from the launch coverage, not from a TypeSafe page.
+source = "https://typesafe.ai"
+output_source = "https://www.eesel.ai/blog/typesafe-jev-pricing"
+
+[luna]
+input_per_mtok = 0.10
+output_per_mtok = 0.0
+batch_input_per_mtok = 0.05  # Batch/Flex rate of gpt-6-luna; the Decisions guide does not say it applies
+checked = "2026-10-26"
+# Decisions guide: "uncached input costs $0.10 per 1M tokens", "Output tokens are not charged".
+# Cache hits get the gpt-6-luna cached-input rate ($0.01 per 1M); our runs had no cache hits.
+source = "https://developers.openai.com/api/docs/guides/decisions"
+pricing_page = "https://developers.openai.com/api/docs/pricing"

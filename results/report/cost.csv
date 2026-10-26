@@ -1,0 +1,5 @@
+method,input tokens / item,output tokens / item,"cost per 1,000 items (USD)",cost source,tuning spend (USD),tuning variants
+Jev,681.1,98.9,0.0286,tokens × list price,0.0429,3
+Luna,402.3,0.0,0.0402,tokens × list price,0.0602,3
+Haiku 5.5,885.8,18.1,0.0976,usage.cost,0.1461,3
+Qwen3.8 27B,364.7,20.7,0.0424,usage.cost,0.0634,3

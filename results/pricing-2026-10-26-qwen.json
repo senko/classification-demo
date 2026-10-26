@@ -1,0 +1,1668 @@
+{
+ "data": {
+  "id": "qwen/qwen3.8-27b",
+  "name": "Qwen: Qwen3.8 27B",
+  "created": 1786722910,
+  "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+  "architecture": {
+   "tokenizer": "Qwen",
+   "instruct_type": null,
+   "modality": "text+image+video->text",
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "output_modalities": [
+    "text"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "Darkbloom | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.000000035",
+     "completion": "0.0000022",
+     "input_cache_read": "0.0000000175",
+     "discount": 0
+    },
+    "provider_name": "Darkbloom",
+    "tag": "darkbloom/fp4",
+    "service_tier": null,
+    "quantization": "fp4",
+    "max_completion_tokens": 32768,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "temperature",
+     "top_p",
+     "top_k",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "stop",
+     "seed",
+     "max_tokens",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": false,
+     "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.84152139461173,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 6503,
+     "p75": 9177.5,
+     "p90": 11505.00000000001,
+     "p99": 26130.520000000084
+    },
+    "throughput_last_30m": {
+     "p50": 28,
+     "p75": 19.5,
+     "p90": 13,
+     "p99": 4
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 6503,
+       "p75": 9177.5,
+       "p90": 11505.00000000001,
+       "p99": 26130.520000000084
+      },
+      "throughput": {
+       "p50": 28,
+       "p75": 19.5,
+       "p90": 13,
+       "p99": 4
+      },
+      "request_count": 643
+     }
+    }
+   },
+   {
+    "name": "Chutes | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.000000039",
+     "completion": "0.00000125",
+     "input_cache_read": "0.0000000039",
+     "discount": 0
+    },
+    "provider_name": "Chutes",
+    "tag": "chutes/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 65536,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "seed",
+     "top_k",
+     "repetition_penalty",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": false,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.65277777777779,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 3139,
+     "p75": 5251,
+     "p90": 12870,
+     "p99": 42355.89999999999
+    },
+    "throughput_last_30m": {
+     "p50": 21,
+     "p75": 15,
+     "p90": 10,
+     "p99": 2
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 3139,
+       "p75": 5251,
+       "p90": 12870,
+       "p99": 42355.89999999999
+      },
+      "throughput": {
+       "p50": 21,
+       "p75": 15,
+       "p90": 10,
+       "p99": 2
+      },
+      "request_count": 7131
+     }
+    }
+   },
+   {
+    "name": "Near AI | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000004",
+     "completion": "0.00000135",
+     "input_cache_read": "0.000000018",
+     "discount": 0
+    },
+    "provider_name": "Near AI",
+    "tag": "near-ai/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 65536,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "temperature",
+     "top_p",
+     "top_k",
+     "max_tokens",
+     "stop",
+     "seed",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "response_format",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.79166666666667,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 1464,
+     "p75": 2037,
+     "p90": 2889.800000000001,
+     "p99": 8192
+    },
+    "throughput_last_30m": {
+     "p50": 73,
+     "p75": 54,
+     "p90": 40,
+     "p99": 18
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 1464,
+       "p75": 2037,
+       "p90": 2889.800000000001,
+       "p99": 8192
+      },
+      "throughput": {
+       "p50": 73,
+       "p75": 54,
+       "p90": 40,
+       "p99": 18
+      },
+      "request_count": 9278
+     }
+    }
+   },
+   {
+    "name": "Ionstream | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000004",
+     "completion": "0.00000195",
+     "input_cache_read": "0.00000002",
+     "discount": 0
+    },
+    "provider_name": "Ionstream",
+    "tag": "ionstream/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 65536,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "top_p",
+     "top_k",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "stop",
+     "seed",
+     "logit_bias",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": false,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 97.88101059494703,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 871,
+     "p75": 1595.75,
+     "p90": 2822.3999999999987,
+     "p99": 14258.089999999986
+    },
+    "throughput_last_30m": {
+     "p50": 54,
+     "p75": 43,
+     "p90": 31,
+     "p99": 13
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 871,
+       "p75": 1595.75,
+       "p90": 2822.3999999999987,
+       "p99": 14258.089999999986
+      },
+      "throughput": {
+       "p50": 54,
+       "p75": 43,
+       "p90": 31,
+       "p99": 13
+      },
+      "request_count": 1032
+     }
+    }
+   },
+   {
+    "name": "Reka | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000004",
+     "completion": "0.0000022",
+     "input_cache_read": "0.00000002",
+     "discount": 0
+    },
+    "provider_name": "Reka",
+    "tag": "reka/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "temperature",
+     "top_p",
+     "top_k",
+     "max_tokens",
+     "stop",
+     "seed",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "min_p",
+     "logit_bias",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 603.5,
+     "p75": 1394.5,
+     "p90": 2977.5,
+     "p99": 9572.399999999994
+    },
+    "throughput_last_30m": {
+     "p50": 51,
+     "p75": 39,
+     "p90": 30,
+     "p99": 12
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 603.5,
+       "p75": 1394.5,
+       "p90": 2977.5,
+       "p99": 9572.399999999994
+      },
+      "throughput": {
+       "p50": 51,
+       "p75": 39,
+       "p90": 30,
+       "p99": 12
+      },
+      "request_count": 2046
+     }
+    }
+   },
+   {
+    "name": "Modal | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000004",
+     "completion": "0.0000023",
+     "input_cache_read": "0.00000002",
+     "discount": 0
+    },
+    "provider_name": "Modal",
+    "tag": "modal",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "temperature",
+     "top_p",
+     "top_k",
+     "stop",
+     "max_tokens",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 871,
+     "p75": 1406,
+     "p90": 2472.000000000002,
+     "p99": 15172.620000000003
+    },
+    "throughput_last_30m": {
+     "p50": 115,
+     "p75": 83.25,
+     "p90": 57.30000000000001,
+     "p99": 15
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 871,
+       "p75": 1406,
+       "p90": 2472.000000000002,
+       "p99": 15172.620000000003
+      },
+      "throughput": {
+       "p50": 115,
+       "p75": 83.25,
+       "p90": 57.30000000000001,
+       "p99": 15
+      },
+      "request_count": 4855
+     }
+    }
+   },
+   {
+    "name": "DekaLLM | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000004",
+     "completion": "0.0000025",
+     "input_cache_read": "0.00000002",
+     "discount": 0
+    },
+    "provider_name": "DekaLLM",
+    "tag": "dekallm",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "frequency_penalty",
+     "logit_bias",
+     "max_tokens",
+     "presence_penalty",
+     "seed",
+     "stop",
+     "temperature",
+     "top_p",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 1056,
+     "p75": 1932.25,
+     "p90": 3587.5,
+     "p99": 14346.399999999987
+    },
+    "throughput_last_30m": {
+     "p50": 99,
+     "p75": 68,
+     "p90": 42,
+     "p99": 10.25
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 1056,
+       "p75": 1932.25,
+       "p90": 3587.5,
+       "p99": 14346.399999999987
+      },
+      "throughput": {
+       "p50": 99,
+       "p75": 68,
+       "p90": 42,
+       "p99": 10.25
+      },
+      "request_count": 3256
+     }
+    }
+   },
+   {
+    "name": "Wafer | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000006",
+     "completion": "0.0000023",
+     "input_cache_read": "0.000000059",
+     "discount": 0
+    },
+    "provider_name": "Wafer",
+    "tag": "wafer/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "temperature",
+     "top_p",
+     "top_k",
+     "min_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "stop",
+     "seed",
+     "max_tokens",
+     "logit_bias",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.79152189020152,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 490,
+     "p75": 841,
+     "p90": 1492.4000000000005,
+     "p99": 4269.2800000000025
+    },
+    "throughput_last_30m": {
+     "p50": 91,
+     "p75": 71,
+     "p90": 49,
+     "p99": 21
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 490,
+       "p75": 841,
+       "p90": 1492.4000000000005,
+       "p99": 4269.2800000000025
+      },
+      "throughput": {
+       "p50": 91,
+       "p75": 71,
+       "p90": 49,
+       "p99": 21
+      },
+      "request_count": 5417
+     }
+    }
+   },
+   {
+    "name": "DeepInfra | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000015",
+     "completion": "0.000001875",
+     "input_cache_read": "0.0000000375",
+     "discount": 0.25
+    },
+    "provider_name": "DeepInfra",
+    "tag": "deepinfra/bf16",
+    "service_tier": null,
+    "quantization": "bf16",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "top_k",
+     "seed",
+     "min_p",
+     "logit_bias",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.58333333333333,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 1187,
+     "p75": 2327,
+     "p90": 4305,
+     "p99": 19954.000000000036
+    },
+    "throughput_last_30m": {
+     "p50": 38,
+     "p75": 26,
+     "p90": 15,
+     "p99": 5
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 1187,
+       "p75": 2327,
+       "p90": 4305,
+       "p99": 19954.000000000036
+      },
+      "throughput": {
+       "p50": 38,
+       "p75": 26,
+       "p90": 15,
+       "p99": 5
+      },
+      "request_count": 3721
+     }
+    }
+   },
+   {
+    "name": "Mancer 2 | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000018",
+     "completion": "0.0000025",
+     "discount": 0
+    },
+    "provider_name": "Mancer 2",
+    "tag": "mancer/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "logit_bias",
+     "top_k",
+     "min_p",
+     "seed",
+     "top_a",
+     "response_format",
+     "logprobs",
+     "top_logprobs",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": false,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": null,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 2258,
+     "p75": 3245,
+     "p90": 4832,
+     "p99": 8572.239999999994
+    },
+    "throughput_last_30m": {
+     "p50": 56.5,
+     "p75": 39.25,
+     "p90": 31,
+     "p99": 19.14
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 2258,
+       "p75": 3245,
+       "p90": 4832,
+       "p99": 8572.239999999994
+      },
+      "throughput": {
+       "p50": 56.5,
+       "p75": 39.25,
+       "p90": 31,
+       "p99": 19.14
+      },
+      "request_count": 169
+     }
+    }
+   },
+   {
+    "name": "ModelRun | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.0000002",
+     "completion": "0.0000025",
+     "input_cache_read": "0.00000009",
+     "discount": 0
+    },
+    "provider_name": "ModelRun",
+    "tag": "modelrun/fp4",
+    "service_tier": null,
+    "quantization": "fp4",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "presence_penalty",
+     "repetition_penalty",
+     "frequency_penalty",
+     "stop",
+     "top_p",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.93055555555556,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 190,
+     "p75": 327,
+     "p90": 616,
+     "p99": 3134.8700000000063
+    },
+    "throughput_last_30m": {
+     "p50": 171,
+     "p75": 136,
+     "p90": 103,
+     "p99": 40
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 190,
+       "p75": 327,
+       "p90": 616,
+       "p99": 3134.8700000000063
+      },
+      "throughput": {
+       "p50": 171,
+       "p75": 136,
+       "p90": 103,
+       "p99": 40
+      },
+      "request_count": 8308
+     }
+    }
+   },
+   {
+    "name": "Phala | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 1000000,
+    "pricing": {
+     "prompt": "0.0000002",
+     "completion": "0.0000025",
+     "input_cache_read": "0.00000005",
+     "discount": 0
+    },
+    "provider_name": "Phala",
+    "tag": "phala",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 262144,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "seed",
+     "top_k",
+     "min_p",
+     "repetition_penalty",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.58304378040306,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 1504,
+     "p75": 2798,
+     "p90": 4820.800000000001,
+     "p99": 70374.3799999999
+    },
+    "throughput_last_30m": {
+     "p50": 87,
+     "p75": 54,
+     "p90": 33,
+     "p99": 7.050000000000001
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 1504,
+       "p75": 2798,
+       "p90": 4820.800000000001,
+       "p99": 70374.3799999999
+      },
+      "throughput": {
+       "p50": 87,
+       "p75": 54,
+       "p90": 33,
+       "p99": 7.050000000000001
+      },
+      "request_count": 1495
+     }
+    }
+   },
+   {
+    "name": "AkashML | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.000000225",
+     "completion": "0.00000198",
+     "input_cache_read": "0.00000005",
+     "discount": 0
+    },
+    "provider_name": "AkashML",
+    "tag": "akashml/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 131072,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "temperature",
+     "top_p",
+     "top_k",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "seed",
+     "max_tokens",
+     "response_format",
+     "structured_outputs",
+     "logprobs",
+     "top_logprobs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 561,
+     "p75": 852,
+     "p90": 1267.2000000000003,
+     "p99": 4675.239999999987
+    },
+    "throughput_last_30m": {
+     "p50": 53,
+     "p75": 44,
+     "p90": 37,
+     "p99": 22
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 561,
+       "p75": 852,
+       "p90": 1267.2000000000003,
+       "p99": 4675.239999999987
+      },
+      "throughput": {
+       "p50": 53,
+       "p75": 44,
+       "p90": 37,
+       "p99": 22
+      },
+      "request_count": 1517
+     }
+    }
+   },
+   {
+    "name": "Parasail | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000024",
+     "completion": "0.0000022",
+     "input_cache_read": "0.00000005",
+     "discount": 0
+    },
+    "provider_name": "Parasail",
+    "tag": "parasail/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "repetition_penalty",
+     "seed",
+     "stop",
+     "top_k",
+     "logit_bias",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": false,
+     "auto": true,
+     "required": false,
+     "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 753,
+     "p75": 1294,
+     "p90": 2176.2,
+     "p99": 10410.119999999995
+    },
+    "throughput_last_30m": {
+     "p50": 67,
+     "p75": 48,
+     "p90": 29,
+     "p99": 9
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 753,
+       "p75": 1294,
+       "p90": 2176.2,
+       "p99": 10410.119999999995
+      },
+      "throughput": {
+       "p50": 67,
+       "p75": 48,
+       "p90": 29,
+       "p99": 9
+      },
+      "request_count": 1669
+     }
+    }
+   },
+   {
+    "name": "CoreWeave | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.0000004",
+     "completion": "0.000003",
+     "input_cache_read": "0.00000015",
+     "discount": 0
+    },
+    "provider_name": "CoreWeave",
+    "tag": "coreweave/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "top_k",
+     "repetition_penalty",
+     "frequency_penalty",
+     "presence_penalty",
+     "stop",
+     "seed",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "logprobs",
+     "top_logprobs",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.92343032159266,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 741.5,
+     "p75": 1718.25,
+     "p90": 3328.2000000000016,
+     "p99": 8208.119999999997
+    },
+    "throughput_last_30m": {
+     "p50": 70,
+     "p75": 53,
+     "p90": 36,
+     "p99": 15
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 741.5,
+       "p75": 1718.25,
+       "p90": 3328.2000000000016,
+       "p99": 8208.119999999997
+      },
+      "throughput": {
+       "p50": 70,
+       "p75": 53,
+       "p90": 36,
+       "p99": 15
+      },
+      "request_count": 938
+     }
+    }
+   },
+   {
+    "name": "Novita | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 1000000,
+    "pricing": {
+     "prompt": "0.00000042",
+     "completion": "0.000003",
+     "input_cache_read": "0.000000085",
+     "discount": 0
+    },
+    "provider_name": "Novita",
+    "tag": "novita",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 131072,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "seed",
+     "top_k",
+     "repetition_penalty",
+     "response_format",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": false,
+     "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": null,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 4322,
+     "p75": 7409,
+     "p90": 23609.800000000003,
+     "p99": 97154.92000000025
+    },
+    "throughput_last_30m": {
+     "p50": 36,
+     "p75": 24,
+     "p90": 9,
+     "p99": 1.1600000000000001
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 4322,
+       "p75": 7409,
+       "p90": 23609.800000000003,
+       "p99": 97154.92000000025
+      },
+      "throughput": {
+       "p50": 36,
+       "p75": 24,
+       "p90": 9,
+       "p99": 1.1600000000000001
+      },
+      "request_count": 233
+     }
+    }
+   },
+   {
+    "name": "Alibaba | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 1000000,
+    "pricing": {
+     "prompt": "0.000000425",
+     "completion": "0.00000255",
+     "input_cache_read": "0.000000085",
+     "input_cache_write": "0.00000053125",
+     "discount": 0
+    },
+    "provider_name": "Alibaba",
+    "tag": "alibaba",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 131072,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "seed",
+     "presence_penalty",
+     "response_format",
+     "top_k",
+     "frequency_penalty",
+     "stop",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": false,
+     "function": false
+    },
+    "status": -2,
+    "uptime_last_30m": 56.666666666666664,
+    "uptime_last_5m": 80,
+    "uptime_last_1d": 98.125,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 531,
+     "p75": 1671.75,
+     "p90": 3574,
+     "p99": 11854.399999999981
+    },
+    "throughput_last_30m": {
+     "p50": 40,
+     "p75": 35,
+     "p90": 30,
+     "p99": 13
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 531,
+       "p75": 1671.75,
+       "p90": 3574,
+       "p99": 11854.399999999981
+      },
+      "throughput": {
+       "p50": 40,
+       "p75": 35,
+       "p90": 30,
+       "p99": 13
+      },
+      "request_count": 2316
+     }
+    }
+   },
+   {
+    "name": "Cloudflare | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000045",
+     "completion": "0.0000032",
+     "input_cache_read": "0.00000005",
+     "discount": 0
+    },
+    "provider_name": "Cloudflare",
+    "tag": "cloudflare",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "top_k",
+     "seed",
+     "repetition_penalty",
+     "frequency_penalty",
+     "presence_penalty",
+     "min_p",
+     "stop",
+     "logit_bias",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "logprobs",
+     "top_logprobs",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": false,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": null,
+    "uptime_last_5m": null,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 977.5,
+     "p75": 1980,
+     "p90": 3516.500000000001,
+     "p99": 5919.869999999997
+    },
+    "throughput_last_30m": {
+     "p50": 36,
+     "p75": 25,
+     "p90": 22,
+     "p99": 21.1
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 977.5,
+       "p75": 1980,
+       "p90": 3516.500000000001,
+       "p99": 5919.869999999997
+      },
+      "throughput": {
+       "p50": 36,
+       "p75": 25,
+       "p90": 22,
+       "p99": 21.1
+      },
+      "request_count": 18
+     }
+    }
+   },
+   {
+    "name": "Venice | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000045",
+     "completion": "0.0000032",
+     "discount": 0
+    },
+    "provider_name": "Venice",
+    "tag": "venice/fp8",
+    "service_tier": null,
+    "quantization": "fp8",
+    "max_completion_tokens": 65536,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "frequency_penalty",
+     "presence_penalty",
+     "top_k",
+     "response_format",
+     "structured_outputs",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 5896.5,
+     "p75": 8988.75,
+     "p90": 12435.5,
+     "p99": 20770.21000000001
+    },
+    "throughput_last_30m": {
+     "p50": 14,
+     "p75": 8,
+     "p90": 5.400000000000006,
+     "p99": 3
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 5896.5,
+       "p75": 8988.75,
+       "p90": 12435.5,
+       "p99": 20770.21000000001
+      },
+      "throughput": {
+       "p50": 14,
+       "p75": 8,
+       "p90": 5.400000000000006,
+       "p99": 3
+      },
+      "request_count": 2192
+     }
+    }
+   },
+   {
+    "name": "Cerebras | qwen/qwen3.8-27b-20260814",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "context_length": 65536,
+    "pricing": {
+     "prompt": "0.00000099",
+     "completion": "0.00000149",
+     "input_cache_read": "0.00000099",
+     "discount": 0
+    },
+    "provider_name": "Cerebras",
+    "tag": "cerebras/fp16",
+    "service_tier": null,
+    "quantization": "fp16",
+    "max_completion_tokens": 32768,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+     "reasoning",
+     "include_reasoning",
+     "max_tokens",
+     "temperature",
+     "top_p",
+     "stop",
+     "seed",
+     "logprobs",
+     "top_logprobs",
+     "frequency_penalty",
+     "presence_penalty",
+     "logit_bias",
+     "tools",
+     "tool_choice",
+     "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": {
+     "p50": 324,
+     "p75": 716.75,
+     "p90": 1525.8000000000002,
+     "p99": 4098.7000000000035
+    },
+    "throughput_last_30m": {
+     "p50": 684.5,
+     "p75": 268.75,
+     "p90": 113.5,
+     "p99": 28
+    },
+    "perf_last_30m_by_workload": {
+     "text_generation": {
+      "latency": {
+       "p50": 324,
+       "p75": 716.75,
+       "p90": 1525.8000000000002,
+       "p99": 4098.7000000000035
+      },
+      "throughput": {
+       "p50": 684.5,
+       "p75": 268.75,
+       "p90": 113.5,
+       "p99": 28
+      },
+      "request_count": 1362
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+method,device,latency p50 / p90 / p99 (ms),throughput (items/s),notes
+Jev,API,166 / 196 / 259,93.4,"concurrency 16, retries {}"
+Luna,API,246 / 369 / 522,64.4,"concurrency 16, retries {}"
+Haiku 5.5,API,1065 / 1663 / 3827,13.1,"concurrency 16, retries {'retry:502': 1}"
+Qwen3.8 27B,API,700 / 1000 / 4755,18.2,"concurrency 16, retries {'retry:429': 2}"
+TF-IDF + LR,CPU,0.30 / 0.35 / 0.43,41461.0,bulk batch 5938
+BERTić,GPU,2.98 / 3.23 / 3.77,1159.0,bulk batch 512
+BERTić,CPU,17.50 / 19.13 / 21.12,110.0,bulk batch 512

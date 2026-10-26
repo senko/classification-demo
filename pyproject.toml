@@ -1,0 +1,24 @@
+[project]
+name = "classification-demo"
+version = "0.1.0"
+description = "Compare classification methods on Croatian retail product names"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "typesafe-sdk>=0.7.5,<0.8",
+]
+
+[dependency-groups]
+bert = [
+    "accelerate==1.13.0",
+    "datasets==4.8.4",
+    "torch==2.11.0",
+    "transformers==5.4.0",
+]
+
+[tool.uv]
+package = false

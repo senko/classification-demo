@@ -1,0 +1,78 @@
+ean,product,quantity,label,predicted,verdict,correct_category,note,reviewed_at
+3059943021709,Airwick sprej spring delight,250 ml,cosmetics,cleaning,label_wrong,household,,2026-10-26T16:56:20.628Z
+3600550929324,Mixa Baby Ulje Atopiance za Tijelo i Kosu,0.250 L,baby,cosmetics,label_correct,baby,,2026-10-26T16:55:56.099Z
+3830001296129,Uljni Peroksid 9%,0.125 L,cosmetics,food health,label_correct,cosmetics,,2026-10-26T16:59:29.909Z
+3830075227043,Protein Shake Čokolada,0.33 L,food,drinks health,label_correct,food,,2026-10-26T17:04:16.123Z
+3838945502696,Sok jabuka i kamilica,0.125 L,baby,drinks,label_correct,baby,,2026-10-26T16:58:26.619Z
+3838945502764,Sok marelica,0.125 L,baby,drinks,label_correct,baby,,2026-10-26T16:56:03.227Z
+3850102006755,Praline Antique Pelinkovac,0.158 kg,food,alcohol,label_wrong,alcohol,,2026-10-26T16:54:59.452Z
+3850102506996,Kraš Express Kakao Napitak,0.4 kg,drinks,food,label_correct,drinks,,2026-10-26T17:04:28.140Z
+3850104263613,Lino Jastučići Mlijeko,0.5 kg,food,baby,label_correct,food,,2026-10-26T17:03:34.682Z
+3850105160522,Faks Helizim Kapsule Color Lavanda i Smilje,14.000 kom,cleaning,health,label_correct,cleaning,,2026-10-26T17:04:02.634Z
+3850105180445,Faks Baby Sensitive,1.17 kg,cleaning,baby,label_correct,cleaning,,2026-10-26T17:00:08.300Z
+3850105183460,Ornel Gel Calming,1.8 L,cleaning,cosmetics,label_correct,cleaning,,2026-10-26T17:03:52.314Z
+3850111105814,Meri Merino White,2.7 L,cleaning,food household,label_correct,cleaning,,2026-10-26T17:01:22.478Z
+3850177008807,Ilirija Vedrog - Ehoton Dimno Sivi,0.075 L,cosmetics,alcohol,label_correct,cosmetics,,2026-10-26T17:05:35.315Z
+3850354016472,B.Aktiv LGG Super Smoothie Spirulina,0.330 kg,food,drinks,label_correct,food,,2026-10-26T16:55:10.739Z
+3855896667410,Zamka za žohare s mamcem,5 kom,household,pets,label_correct,household,,2026-10-26T17:01:42.059Z
+3856007706219,Čistač poda Ultra Džoger,1 kom,household,cleaning,label_correct,household,,2026-10-26T17:04:24.939Z
+3856007908415,Asepsoleta Sensitive,5 kom,toiletries,cosmetics,label_wrong,cosmetics,,2026-10-26T16:55:18.651Z
+3856007908736,Plidenta Pasta Kids,0.075 L,cosmetics,food,label_wrong,health,,2026-10-26T16:59:00.155Z
+3856020262204,Čokolešnik,0.95 kg,baby,food,label_wrong,food,,2026-10-26T16:59:51.771Z
+3858881083639,Instant Mješavina Za Kavu 2u1,300.0 g,drinks,food,label_correct,drinks,,2026-10-26T16:55:05.539Z
+3858882681841,WC Četka Set Glanz,1 kom,household,cleaning,label_correct,household,,2026-10-26T16:56:07.795Z
+3858888021603,Paxlaura Vit Lampion,1 kom,household,health,label_correct,household,,2026-10-26T17:05:45.795Z
+3858891010120,Holyplant Vitaminska Krema,0.045 L,cosmetics,drinks,label_correct,cosmetics,,2026-10-26T17:01:37.587Z
+3858891762388,Less Stress,0.025 L,health,food cosmetics cleaning,label_correct,health,,2026-10-26T16:57:58.447Z
+3859888163348,Vinobran,10 g,food,alcohol health pets,label_correct,food,,2026-10-26T16:57:06.572Z
+3859888333161,Aroma lješnjak,0.015 L,food,cosmetics,label_correct,food,,2026-10-26T17:03:40.482Z
+3859890197775,Kolageno crijevo 75mm,5 kom,food,household,label_wrong,household,,2026-10-26T16:59:10.139Z
+3859891267637,Vrećice za zamrzavanje,1.000 kg,household,food,label_correct,household,,2026-10-26T16:57:42.987Z
+3859892827052,Pastile Medo-Flor Matična Mliječ Forte,16 kom,health,baby,label_correct,health,,2026-10-26T17:04:22.571Z
+3859893414954,Zmajsko Pale Ale,1.98 L,alcohol,food,label_correct,alcohol,,2026-10-26T17:03:38.338Z
+4000521024444,Kvasac Suhi 4+1 Gratis,35.0 g,food,health,label_correct,food,,2026-10-26T17:03:36.067Z
+4003024465158,Tomi Losos/Pastrva,100 g,pets,food,label_correct,pets,,2026-10-26T17:02:00.940Z
+4008239366641,Poesie Delisauce Govedina,85 g,pets,food,label_correct,pets,,2026-10-26T16:55:45.764Z
+4008239366658,Poesie Delisauce Kolja,85 g,pets,food,label_correct,pets,,2026-10-26T16:55:43.141Z
+4009175163585,Erdal Neutral Sprej za Antilip,0.250 L,cleaning,cosmetics,label_correct,cleaning,,2026-10-26T16:58:23.635Z
+4009175163622,Sjajilo za obuću Neutralno,0.065 L,cleaning,household,label_correct,cleaning,,2026-10-26T17:01:44.691Z
+4019042000035,Prezervativi Masculan Rebrasti i Točkasti,1 kom,health,baby,label_correct,health,,2026-10-26T17:04:52.435Z
+4105250022003,Augustiner Helles,0.5 L,alcohol,drinks,label_correct,alcohol,,2026-10-26T17:04:05.275Z
+4260332198431,Funky Cola Roller slatka tekućina,60 ml,food,drinks,label_correct,food,,2026-10-26T16:58:54.587Z
+5000204364293,Klopka za mrave,1 kom,household,cosmetics,label_correct,household,,2026-10-26T17:05:40.267Z
+5000204919721,Raid El. aparat s tekućinom duplo pakiranje,1 kom,household,cleaning,label_correct,household,,2026-10-26T16:58:03.188Z
+5060194790021,Bambusova podloga za sushi,0.060 kg,food,household,label_wrong,household,,2026-10-26T17:02:27.019Z
+5310001273156,Vlažne maramice Becutan Aqua,168 kom,baby,toiletries,label_correct,baby,,2026-10-26T17:05:42.195Z
+5411188118732,Napitak kokos badem,1.0 L,food,drinks,label_wrong,drinks,,2026-10-26T16:55:53.716Z
+5711953166372,Caffe Latte Cup,0.22 L,food,drinks,label_wrong,drinks,,2026-10-26T16:59:12.691Z
+5905466037971,Pjenušac Paw Patrol Malina,0.75 L,drinks,alcohol,label_correct,drinks,,2026-10-26T16:58:31.971Z
+5907707053207,Boja tekuća jestiva žuta,0.03 L,food,cosmetics,label_correct,food,,2026-10-26T17:02:05.931Z
+5997381329392,Vruća Čokolada Ciobar,25.0 g,drinks,food,label_correct,drinks,,2026-10-26T17:05:38.923Z
+5999109542106,Airwick Fresh Matic Cool Linen,0.250 L,food,cleaning,label_wrong,cleaning,,2026-10-26T16:57:37.019Z
+6927749810636,Wanpy Dog Pil i Bakalar,100 g,pets,food,label_correct,pets,,2026-10-26T17:03:43.243Z
+7312040323081,Absolut Espresso Martini,0.2 L,alcohol,drinks,label_correct,alcohol,,2026-10-26T16:55:20.915Z
+7612412429510,Curaprox Be You Jabuka,0.06 L,cosmetics,drinks,label_wrong,health,,2026-10-26T16:57:34.523Z
+7613036056434,Nan H.A.,0.400 kg,baby,food health,label_correct,baby,,2026-10-26T17:03:26.979Z
+7613287011237,Žitarice Nesquik Banana Crush,0.350 kg,food,drinks,label_correct,food,,2026-10-26T16:55:58.475Z
+8002030114025,Off Sprej protiv komaraca,0.100 L,household,cosmetics health,label_correct,household,,2026-10-26T16:55:48.379Z
+8002580321171,Stay Strong Milk Shake Vanilija,0.25 L,food,drinks,label_correct,food,,2026-10-26T17:01:27.002Z
+8003185004421,Krema s balzamskim octom,0.250 L,food,cosmetics,label_wrong,health,,2026-10-26T16:59:06.379Z
+8003350525218,Štapići za uši Baby Bio,56 kom,baby,toiletries,label_correct,baby,,2026-10-26T17:04:11.100Z
+8005201503543,Ružmarin Fi18,1 kom,food,household,label_correct,food,,2026-10-26T16:57:41.315Z
+8005831003895,Ljepilo za miševe,0.135 kg,household,food,label_correct,household,,2026-10-26T17:04:09.571Z
+8007229000455,Šampon za pse neutralni lavanda,0.25 L,pets,cosmetics,label_correct,pets,,2026-10-26T17:00:10.171Z
+8007229003623,Šampon za pse,0.250 L,pets,cosmetics,label_correct,pets,,2026-10-26T17:03:20.907Z
+8007898002804,Metla Francesina,1 kom,household,toiletries,label_correct,household,,2026-10-26T17:02:23.907Z
+8009750913099,Wellness Mix,30 g,food,health,label_correct,food,,2026-10-26T17:02:43.538Z
+8055136822059,Vape Refil tekući za el.apa.classic,0.030 L,household,cosmetics cleaning health,label_correct,household,tobacco,2026-10-26T17:01:06.590Z
+8437021261561,Zutec Kapsule Naranča,264 g,drinks,food health,label_wrong,health,,2026-10-26T16:56:35.199Z
+8590014839311,Smoothie Jagoda,0.2 L,drinks,food,label_correct,drinks,,2026-10-26T17:03:49.315Z
+8691275001087,Štapići za uši,300 kom,toiletries,baby,label_correct,toiletries,,2026-10-26T17:01:48.811Z
+8710522528914,Higijenske maramice mint & citrus,60 kom,cleaning,toiletries,label_correct,cleaning,,2026-10-26T17:04:07.971Z
+8711000476208,Natreen Tablete,500 kom,food,health,label_correct,food,,2026-10-26T17:02:18.899Z
+9000101330076,Weisser Riese Color Gel,2.5 L,cleaning,cosmetics,label_correct,cleaning,,2026-10-26T17:02:16.293Z
+9000101606805,Palette ICC 10-0 Vrlo Svijetloplava,1 kom,cosmetics,household,label_correct,cosmetics,,2026-10-26T17:00:05.003Z
+9001495101211,Sok Fruit-Go Jabuka-Breskva-Banana-Marelica,100 ml,food,drinks baby,label_wrong,baby,,2026-10-26T16:59:49.315Z
+90020735,Bravo Multi ACE,0.5 L,drinks,cleaning,label_correct,drinks,,2026-10-26T16:58:00.867Z
+9062300000662,Hipp Baby Voda,1.0 L,baby,drinks,label_correct,baby,,2026-10-26T16:55:03.068Z
+9062300134251,"Kašica banana, breskva, jabuka Bio",0.190 kg,baby,food,label_correct,baby,,2026-10-26T16:58:57.595Z

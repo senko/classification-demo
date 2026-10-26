@@ -1,0 +1,64 @@
+# Haiku and Qwen through OpenRouter chat completions (EXPERIMENT.md 6.5).
+# Both models get the same system prompt, user message format and output schema.
+# `{categories}` in the system prompt is replaced with one line per category from
+# data/categories.csv ("- id: description"), unchanged.
+# Tuning budget: at most 5 prompt variants per model, each run on the 500 tune items.
+# A prompt variant can add request fields with `request = {...}` (for example temperature).
+
+max_tokens = 200
+
+# Dated ids: the response reports the undated name; runs.notes stores the requested id.
+[models.haiku]
+model = "anthropic/claude-haiku-5.5-20261007"
+provider = { order = ["anthropic"], allow_fallbacks = false, require_parameters = true }
+reasoning = { effort = "none" }
+# The frozen prompt variant for the run on the evaluation items. Frozen 2026-10-26: v2 for all methods.
+main = "v2"
+
+[models.qwen]
+model = "qwen/qwen3.8-27b-20260814"
+provider = { order = ["near-ai"], quantizations = ["fp8"], allow_fallbacks = false, require_parameters = true }
+# Qwen reasons by default (effort xhigh). Reasoning must be off explicitly.
+reasoning = { effort = "none" }
+main = "v2"
+
+[prompts.v1]
+system = """
+Which store category does this product belong to? The user message gives the product name and \
+its quantity with the unit.
+
+Categories:
+{categories}
+
+Answer with the category id and your confidence: the probability from 0 to 1 that the category \
+is correct.
+"""
+
+# v2: context about the input. Same text for Jev, Luna and the LLMs.
+[prompts.v2]
+system = """
+The product is from a Croatian retail store. The name is in Croatian, as the store lists it, \
+and can contain the brand. Which store category does this product belong to? The user message \
+gives the product name and its quantity with the unit.
+
+Categories:
+{categories}
+
+Answer with the category id and your confidence: the probability from 0 to 1 that the category \
+is correct.
+"""
+
+# v3: v2 + decide by what the product is. Same text for Jev, Luna and the LLMs.
+[prompts.v3]
+system = """
+The product is from a Croatian retail store. The name is in Croatian, as the store lists it, \
+and can contain the brand. Which store category does this product belong to? Decide by what \
+the product is. A word for a flavour, scent or ingredient in the name does not decide the \
+category. The user message gives the product name and its quantity with the unit.
+
+Categories:
+{categories}
+
+Answer with the category id and your confidence: the probability from 0 to 1 that the category \
+is correct.
+"""

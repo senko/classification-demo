@@ -1,0 +1,16 @@
+A,B,errors A - B,95% CI,only A right,only B right,McNemar p,Holm p,verdict
+TF-IDF + LR,BERTić,-12,-37 to 13,91,79,0.3989,0.7979,not distinguishable
+TF-IDF + LR,Jev,-170,-208 to -135,257,87,0.0,0.0,TF-IDF + LR better
+TF-IDF + LR,Luna,-78,-111 to -45,180,102,0.0,0.0,TF-IDF + LR better
+TF-IDF + LR,Haiku 5.5,-161,-199 to -124,264,103,0.0,0.0,TF-IDF + LR better
+TF-IDF + LR,Qwen3.8 27B,-251,-291 to -211,339,88,0.0,0.0,TF-IDF + LR better
+BERTić,Jev,-158,-195 to -122,252,94,0.0,0.0,BERTić better
+BERTić,Luna,-66,-99 to -34,169,103,0.0001,0.0002,BERTić better
+BERTić,Haiku 5.5,-149,-188 to -111,266,117,0.0,0.0,BERTić better
+BERTić,Qwen3.8 27B,-239,-278 to -200,325,86,0.0,0.0,BERTić better
+Jev,Luna,92,63 to 122,66,158,0.0,0.0,Luna better
+Jev,Haiku 5.5,9,-23 to 41,129,138,0.6245,0.7979,not distinguishable
+Jev,Qwen3.8 27B,-81,-114 to -48,183,102,0.0,0.0,Jev better
+Luna,Haiku 5.5,-83,-116 to -51,183,100,0.0,0.0,Luna better
+Luna,Qwen3.8 27B,-173,-208 to -138,255,82,0.0,0.0,Luna better
+Haiku 5.5,Qwen3.8 27B,-90,-126 to -53,220,130,0.0,0.0,Haiku 5.5 better

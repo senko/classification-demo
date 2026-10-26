@@ -1,0 +1,11 @@
+label,food,drinks,alcohol,cosmetics,toiletries,cleaning,household,baby,health,pets,(none)
+food,2691,48,5,18,3,8,30,10,23,5,0
+drinks,12,482,4,2,0,0,2,2,9,0,0
+alcohol,2,16,597,0,1,0,0,0,0,0,0
+cosmetics,4,1,1,844,7,8,13,1,9,0,0
+toiletries,1,0,0,6,92,1,6,1,1,0,0
+cleaning,4,6,1,12,9,364,12,1,2,0,0
+household,3,0,1,9,8,38,187,1,4,3,0
+baby,21,5,0,6,9,0,1,105,1,0,0
+health,1,2,0,0,0,0,0,0,26,0,0
+pets,23,0,0,1,0,0,1,2,1,102,0

@@ -1,0 +1,11 @@
+method,variant,phase,device,batch_size,n_items,wall_s,peak_rss_mb,peak_vram_alloc_mb,peak_vram_reserved_mb,peak_vram_process_mb
+TF-IDF + LR,main,train,cpu,,20777,17.5,349.5,,,
+TF-IDF + LR,main,infer,cpu,1,5938,1.8,349.5,,,
+TF-IDF + LR,main,infer,cpu,5938,5938,0.1,349.5,,,
+TF-IDF + LR,brand,train,cpu,,20789,16.3,351.8,,,
+BERTić,main,train,cuda,32,20777,574.5,2067.8,1969.3,2254.0,2396.0
+BERTić,brand,train,cuda,32,20789,561.7,2361.8,1978.3,2296.0,2438.0
+BERTić,main,infer,cuda,512,5938,5.1,1415.1,944.2,1894.0,2026.0
+BERTić,main,infer,cuda,1,5938,18.1,1415.1,432.9,1894.0,2026.0
+BERTić,main,infer,cpu,512,5938,53.6,2521.3,,,
+BERTić,main,infer,cpu,1,5938,102.2,2521.3,,,

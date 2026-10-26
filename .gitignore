@@ -1,0 +1,11 @@
+.env
+.venv/
+# working directory of a run (RESULTS_DIR): results.db, pricing snapshots, models, report
+out/
+model/
+__pycache__/
+# Hugging Face cache, if pointed into the repository
+.cache/
+hf_cache/
+# raw HTTP logs
+*.http.log

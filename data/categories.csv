@@ -1,0 +1,11 @@
+id,name_hr,description
+food,Hrana,"Fruit and vegetables, meat, fish, dairy, eggs, bread and bakery, frozen and canned food, pasta, rice, flour, oil, spices, sauces, sweets and snacks; excludes baby food and supplements"
+drinks,"Bezalkoholna pića, kava i čaj","Water, juices, soft drinks, energy drinks, iced tea, syrups, instant drink powders; coffee, tea and cocoa in any form"
+alcohol,Alkoholna pića,"Beer, cider, wine, sparkling wine, spirits, liqueurs"
+cosmetics,Kozmetika,"Hair, skin, body and oral care, deodorants, shaving, make-up, perfume"
+toiletries,Toaletne potrepštine,"Toilet paper, tissues, wet wipes, pads, tampons, cotton wool and buds"
+cleaning,Sredstva za čišćenje,"Laundry and dish detergents, softeners, surface, WC and glass cleaners, air fresheners"
+household,Proizvodi za kućanstvo,"Kitchenware, foil and bags, cleaning tools, bulbs and batteries, candles, stationery, textile, garden, DIY, seasonal decorations"
+baby,Bebe i djeca,"Baby food and formula, diapers, baby cosmetics and care, dummies and bottles, toys"
+health,Zdravlje,"Supplements and vitamins, OTC remedies, plasters and first aid, condoms, contact lenses"
+pets,Kućni ljubimci,"Pet food, litter, pet accessories"
