@@ -135,6 +135,33 @@ These run one method at a time into `out/demo/`, so they never touch a full run 
 | `results/` | Reference results: report, every prediction (`predictions.csv.gz`), price snapshots |
 | `out/` | Your runs (not committed) |
 
+## Sources
+
+Methods and data:
+
+- TypeSafe AI: [Introducing System One Models & Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev)
+  (Sep 15, 2026)
+- OpenAI: [Decisions API guide](https://developers.openai.com/api/docs/guides/decisions)
+- Anthropic: [Introducing Claude Haiku 5.5](https://www.anthropic.com/news/claude-haiku-5-5) (Oct 7, 2026)
+- Qwen: [Qwen3.8 model family](https://github.com/QwenLM/Qwen3.8),
+  [Qwen3.8-27B model card](https://huggingface.co/Qwen/Qwen3.8-27B)
+- Ljubešić & Lauc (2021): [BERTić - The Transformer Language Model for Bosnian, Croatian, Montenegrin and Serbian](https://aclanthology.org/2021.bsnlp-1.5/)
+  ([arXiv](https://arxiv.org/abs/2104.09243)); model files:
+  [classla/bcms-bertic](https://huggingface.co/classla/bcms-bertic) on Hugging Face
+- Senko Rašić: [Analyzing Jev, a new AI model](https://blog.senko.net/analyzing-jev-a-new-ai-model)
+  (Sep 22, 2026)
+- Sebastian Raschka: [Language Models for Text Classification: From Bag-of-Words to Jev](https://magazine.sebastianraschka.com/p/classifier-history-and-jev)
+  (Sep 29, 2026)
+- [Cijene API](https://cijene.dev): Croatian retail price and product data
+
+Background:
+
+- Vaswani et al. (2017): [Attention Is All You Need](https://arxiv.org/abs/1706.03762), the transformer
+- Devlin et al. (2018): [BERT](https://arxiv.org/abs/1810.04805)
+- Brown et al. (2020): [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (GPT-3, in-context learning)
+- Warner et al. (2024): [ModernBERT](https://arxiv.org/abs/2412.13663)
+- Daniel Kahneman (2011): *Thinking, Fast and Slow* (System 1 and System 2)
+
 ## License
 
 Code: [MIT](LICENSE). Product data: [Cijene API](https://cijene.dev), republished with
