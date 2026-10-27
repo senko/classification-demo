@@ -116,8 +116,10 @@ These run one method at a time into `out/demo/`, so they never touch a full run 
 - `just luna`: OpenAI Decisions (GPT-6 Luna) on 500 dev items
 - `just haiku`: Claude Haiku on 500 dev items
 - `just qwen`: Qwen3.8 27B on 500 dev items
+- `just notebook`: the code of each method, short, in JupyterLab on port 8888
+  ([demo.ipynb](demo.ipynb); BERTić trains 1 epoch, ~1 min on GPU)
 - `just results`: the reference report in the terminal (needs glow)
-- `just clean`: delete `out/demo/`
+- `just clean`: delete `out/demo/` and `out/notebook/`
 
 ## Files
 
@@ -130,6 +132,7 @@ These run one method at a time into `out/demo/`, so they never touch a full run 
 | `openrouter_stats.py` | How much of the Haiku and Qwen latency OpenRouter adds |
 | `report.py`, `compare.py` | Report from `results.db`; your report next to the reference |
 | `review.py` | Helper for the manual label review |
+| `demo.ipynb` | Notebook for the live demo: one request per API, short TF-IDF and BERTić training |
 | `config/` | Prompts, model versions, prices |
 | `data/` | Products, categories, labels, split, label review |
 | `results/` | Reference results: report, every prediction (`predictions.csv.gz`), price snapshots |

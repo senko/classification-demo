@@ -4,6 +4,8 @@
 out/
 model/
 __pycache__/
+# Jupyter autosave
+.ipynb_checkpoints/
 # Hugging Face cache, if pointed into the repository
 .cache/
 hf_cache/

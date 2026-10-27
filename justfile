@@ -11,9 +11,9 @@ variant := "demo-$(date +%Y%m%d-%H%M%S)"
 default:
     @just --list --unsorted
 
-# Install the dependencies, including torch for BERTić (several GB)
+# Install the dependencies, including torch for BERTić (several GB) and Jupyter for the notebook
 setup:
-    uv sync --group bert
+    uv sync --group bert --group notebook
 
 # Full experiment into out/: all runs, then the report (~1.5 h, ~$2.30 in API calls; resumable)
 reproduce: setup
@@ -60,11 +60,15 @@ haiku: _dir
 qwen: _dir
     uv run --no-sync run_llm.py qwen --items tune --variant "{{ variant }}"
 
+# Demo: the code notebook (demo.ipynb) in JupyterLab on port 8888, open on all interfaces
+notebook:
+    uv run --no-sync --group bert --group notebook jupyter lab --no-browser --ip=0.0.0.0 demo.ipynb
+
 # Report of the full run (the reference results), in the terminal
 results:
     glow -t results/report/report.md
 
-# Delete the demo run directory (also the trained BERTić model in it)
+# Delete the demo run directory (also the trained BERTić model in it) and the notebook's out/notebook
 clean:
     #!/bin/sh
     dir=$(realpath -m "$RESULTS_DIR")
@@ -72,7 +76,7 @@ clean:
         echo "refusing to delete $RESULTS_DIR: not a demo directory" >&2
         exit 1
     fi
-    rm -rf "$RESULTS_DIR"
+    rm -rf "$RESULTS_DIR" out/notebook
 
 [private]
 _dir:

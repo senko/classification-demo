@@ -19,6 +19,10 @@ bert = [
     "torch==2.11.0",
     "transformers==5.4.0",
 ]
+notebook = [
+    "ipywidgets>=8.1.9",
+    "jupyterlab>=4.6.4",
+]
 
 [tool.uv]
 package = false
